@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeralConverter", "RomanNumeralConverter\RomanNumeralConverter.csproj", "{4CD83546-B022-429D-BA5B-2859A27F5D45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CD83546-B022-429D-BA5B-2859A27F5D45}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{4CD83546-B022-429D-BA5B-2859A27F5D45}.Debug|iPhone.Build.0 = Debug|iPhone
+		{4CD83546-B022-429D-BA5B-2859A27F5D45}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{4CD83546-B022-429D-BA5B-2859A27F5D45}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{4CD83546-B022-429D-BA5B-2859A27F5D45}.Release|iPhone.ActiveCfg = Release|iPhone
+		{4CD83546-B022-429D-BA5B-2859A27F5D45}.Release|iPhone.Build.0 = Release|iPhone
+		{4CD83546-B022-429D-BA5B-2859A27F5D45}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{4CD83546-B022-429D-BA5B-2859A27F5D45}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93913CA9-A63F-47FB-B87B-1DA390B44FC0}
+	EndGlobalSection
+EndGlobal

@@ -13,6 +13,14 @@ namespace RomanNumeralConverter
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+            string convertedNumber = "";
+            ConvertButton.TouchUpInside += (object sender, EventArgs e) =>
+            {
+                convertedNumber = NumberConverter.ToRomanNumeral(NumberToConvert.Text);
+
+                // Dismiss the keyboard if text field was tapped
+                NumberToConvert.ResignFirstResponder();
+            };
             // Perform any additional setup after loading the view, typically from a nib.
         }
 

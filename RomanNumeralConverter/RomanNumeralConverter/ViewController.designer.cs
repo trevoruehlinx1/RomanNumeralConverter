@@ -15,22 +15,53 @@ namespace RomanNumeralConverter
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton ConvertButton { get; set; }
+        UIKit.UILabel AnswerLabel { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UITextField NumberToConvert { get; set; }
+        UIKit.UIView ConvertToDecimal2 { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton ConvertToNumeralButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField DecimalToConvertTextField { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField NumeralToConvertTextField { get; set; }
+
+        [Action ("UIButton2341_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void UIButton2341_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
-            if (ConvertButton != null) {
-                ConvertButton.Dispose ();
-                ConvertButton = null;
+            if (AnswerLabel != null) {
+                AnswerLabel.Dispose ();
+                AnswerLabel = null;
             }
 
-            if (NumberToConvert != null) {
-                NumberToConvert.Dispose ();
-                NumberToConvert = null;
+            if (ConvertToDecimal2 != null) {
+                ConvertToDecimal2.Dispose ();
+                ConvertToDecimal2 = null;
+            }
+
+            if (ConvertToNumeralButton != null) {
+                ConvertToNumeralButton.Dispose ();
+                ConvertToNumeralButton = null;
+            }
+
+            if (DecimalToConvertTextField != null) {
+                DecimalToConvertTextField.Dispose ();
+                DecimalToConvertTextField = null;
+            }
+
+            if (NumeralToConvertTextField != null) {
+                NumeralToConvertTextField.Dispose ();
+                NumeralToConvertTextField = null;
             }
         }
     }

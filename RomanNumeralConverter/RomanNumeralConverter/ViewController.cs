@@ -14,20 +14,42 @@ namespace RomanNumeralConverter
         {
             base.ViewDidLoad();
             string convertedNumber = "";
-            ConvertButton.TouchUpInside += (object sender, EventArgs e) =>
+            ConvertToNumeralButton.TouchUpInside += (object sender, EventArgs e) =>
             {
-                convertedNumber = NumberConverter.ToRomanNumeral(NumberToConvert.Text);
-
+                NumeralToConvertTextField.Text = "";
+                int intToConvert;
+                Int32.TryParse(DecimalToConvertTextField.Text, out intToConvert );
+                convertedNumber = NumberConverter.ToRomanNumeral(intToConvert);
+                AnswerLabel.Text = convertedNumber.ToString();
                 // Dismiss the keyboard if text field was tapped
-                NumberToConvert.ResignFirstResponder();
+                DecimalToConvertTextField.ResignFirstResponder();
             };
             // Perform any additional setup after loading the view, typically from a nib.
         }
+        //public void ConvertToDecimalButton_TouchUpInside(UIButton sender)
+        //{
+        //    string convertedNumeral = "";
+        //    string NumeralToConvert = NumeralToConvertTextField.Text;
+        //    convertedNumeral = NumberConverter.ToDecimal(NumeralToConvert);
+        //    AnswerLabel.Text = convertedNumeral;
+        //    NumeralToConvertTextField.ResignFirstResponder();
+        //}
 
         public override void DidReceiveMemoryWarning()
         {
             base.DidReceiveMemoryWarning();
             // Release any cached data, images, etc that aren't in use.
+        }
+
+        partial void UIButton2341_TouchUpInside(UIButton sender)
+        {
+            DecimalToConvertTextField.Text = "";
+            string convertedNumeral = "";
+            string NumeralToConvert = NumeralToConvertTextField.Text;
+            convertedNumeral = NumberConverter.ToDecimal(NumeralToConvert);
+            AnswerLabel.Text = convertedNumeral;
+
+            NumeralToConvertTextField.ResignFirstResponder();
         }
     }
 }

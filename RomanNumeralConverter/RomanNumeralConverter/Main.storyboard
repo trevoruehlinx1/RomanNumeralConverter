@@ -55,13 +55,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="2071" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" textAlignment="center">
-                                <rect key="frame" x="178" y="370" width="53" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2099" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
                                 <rect key="frame" x="94" y="219" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -79,11 +72,11 @@
                         <color key="backgroundColor" colorSpace="calibratedRGB" red="0.996078431372549" green="0.75294117647058822" blue="0.75294117647058822" alpha="1"/>
                     </view>
                     <connections>
-                        <outlet property="DecimalToConvertTextField" destination="229" id="name-outlet-229"/>
+                        <outlet property="InputToConvertTextField" destination="229" id="name-outlet-229"/>
                         <outlet property="AnswerLabel" destination="457" id="name-outlet-457"/>
-                        <outlet property="NumeralToConvertTextField" destination="2071" id="name-outlet-2071"/>
                         <outlet property="ConvertToNumeralButton" destination="2099" id="name-outlet-2099"/>
                         <outlet property="ConvertToDecimal2" destination="8bC-Xf-vdC" id="name-outlet-8bC-Xf-vdC"/>
+                        <outlet property="ConvertDecimalButton" destination="2341" id="name-outlet-2341"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

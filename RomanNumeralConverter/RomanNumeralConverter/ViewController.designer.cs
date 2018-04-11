@@ -19,6 +19,10 @@ namespace RomanNumeralConverter
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton ConvertDecimalButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIView ConvertToDecimal2 { get; set; }
 
         [Outlet]
@@ -27,11 +31,7 @@ namespace RomanNumeralConverter
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UITextField DecimalToConvertTextField { get; set; }
-
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UITextField NumeralToConvertTextField { get; set; }
+        UIKit.UITextField InputToConvertTextField { get; set; }
 
         [Action ("UIButton2341_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -44,6 +44,11 @@ namespace RomanNumeralConverter
                 AnswerLabel = null;
             }
 
+            if (ConvertDecimalButton != null) {
+                ConvertDecimalButton.Dispose ();
+                ConvertDecimalButton = null;
+            }
+
             if (ConvertToDecimal2 != null) {
                 ConvertToDecimal2.Dispose ();
                 ConvertToDecimal2 = null;
@@ -54,14 +59,9 @@ namespace RomanNumeralConverter
                 ConvertToNumeralButton = null;
             }
 
-            if (DecimalToConvertTextField != null) {
-                DecimalToConvertTextField.Dispose ();
-                DecimalToConvertTextField = null;
-            }
-
-            if (NumeralToConvertTextField != null) {
-                NumeralToConvertTextField.Dispose ();
-                NumeralToConvertTextField = null;
+            if (InputToConvertTextField != null) {
+                InputToConvertTextField.Dispose ();
+                InputToConvertTextField = null;
             }
         }
     }

@@ -16,13 +16,13 @@ namespace RomanNumeralConverter
             string convertedNumber = "";
             ConvertToNumeralButton.TouchUpInside += (object sender, EventArgs e) =>
             {
-                NumeralToConvertTextField.Text = "";
+                InputToConvertTextField.Text = "";
                 int intToConvert;
-                Int32.TryParse(DecimalToConvertTextField.Text, out intToConvert );
+                Int32.TryParse(InputToConvertTextField.Text, out intToConvert );
                 convertedNumber = NumberConverter.ToRomanNumeral(intToConvert);
                 AnswerLabel.Text = convertedNumber.ToString();
                 // Dismiss the keyboard if text field was tapped
-                DecimalToConvertTextField.ResignFirstResponder();
+                InputToConvertTextField.ResignFirstResponder();
             };
             // Perform any additional setup after loading the view, typically from a nib.
         }
@@ -43,13 +43,13 @@ namespace RomanNumeralConverter
 
         partial void UIButton2341_TouchUpInside(UIButton sender)
         {
-            DecimalToConvertTextField.Text = "";
+            InputToConvertTextField.Text = "";
             string convertedNumeral = "";
-            string NumeralToConvert = NumeralToConvertTextField.Text;
+            string NumeralToConvert = InputToConvertTextField.Text;
             convertedNumeral = NumberConverter.ToDecimal(NumeralToConvert);
             AnswerLabel.Text = convertedNumeral;
 
-            NumeralToConvertTextField.ResignFirstResponder();
+            InputToConvertTextField.ResignFirstResponder();
         }
     }
 }

@@ -1,0 +1,13 @@
+C:\Users\Trevor Uehlin\Documents\CS235IM Int Mobile App Dev IOS\Week 1\Lab 1\RomanNumeralConverter\RomanNumeralConverter\RomanNumeralConverter\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\Trevor Uehlin\Documents\CS235IM Int Mobile App Dev IOS\Week 1\Lab 1\RomanNumeralConverter\RomanNumeralConverter\RomanNumeralConverter\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\Trevor Uehlin\Documents\CS235IM Int Mobile App Dev IOS\Week 1\Lab 1\RomanNumeralConverter\RomanNumeralConverter\RomanNumeralConverter\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\Trevor Uehlin\Documents\CS235IM Int Mobile App Dev IOS\Week 1\Lab 1\RomanNumeralConverter\RomanNumeralConverter\RomanNumeralConverter\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\Trevor Uehlin\Documents\CS235IM Int Mobile App Dev IOS\Week 1\Lab 1\RomanNumeralConverter\RomanNumeralConverter\RomanNumeralConverter\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Trevor Uehlin\Documents\CS235IM Int Mobile App Dev IOS\Week 1\Lab 1\RomanNumeralConverter\RomanNumeralConverter\RomanNumeralConverter\obj\iPhoneSimulator\Debug\optimized\Entitlements.plist
+C:\Users\Trevor Uehlin\Documents\CS235IM Int Mobile App Dev IOS\Week 1\Lab 1\RomanNumeralConverter\RomanNumeralConverter\RomanNumeralConverter\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\Trevor Uehlin\Documents\CS235IM Int Mobile App Dev IOS\Week 1\Lab 1\RomanNumeralConverter\RomanNumeralConverter\RomanNumeralConverter\obj\iPhoneSimulator\Debug\RomanNumeralConverter.csproj.CoreCompileInputs.cache
+C:\Users\Trevor Uehlin\Documents\CS235IM Int Mobile App Dev IOS\Week 1\Lab 1\RomanNumeralConverter\RomanNumeralConverter\RomanNumeralConverter\bin\iPhoneSimulator\Debug\RomanNumeralConverter.exe
+C:\Users\Trevor Uehlin\Documents\CS235IM Int Mobile App Dev IOS\Week 1\Lab 1\RomanNumeralConverter\RomanNumeralConverter\RomanNumeralConverter\bin\iPhoneSimulator\Debug\RomanNumeralConverter.pdb
+C:\Users\Trevor Uehlin\Documents\CS235IM Int Mobile App Dev IOS\Week 1\Lab 1\RomanNumeralConverter\RomanNumeralConverter\RomanNumeralConverter\obj\iPhoneSimulator\Debug\RomanNumeralConverter.exe
+C:\Users\Trevor Uehlin\Documents\CS235IM Int Mobile App Dev IOS\Week 1\Lab 1\RomanNumeralConverter\RomanNumeralConverter\RomanNumeralConverter\obj\iPhoneSimulator\Debug\RomanNumeralConverter.pdb
+C:\Users\Trevor Uehlin\Documents\CS235IM Int Mobile App Dev IOS\Week 1\Lab 1\RomanNumeralConverter\RomanNumeralConverter\RomanNumeralConverter\obj\iPhoneSimulator\Debug\RomanNumeralConverter.csprojResolveAssemblyReference.cache

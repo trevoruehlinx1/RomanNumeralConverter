@@ -16,7 +16,6 @@ namespace RomanNumeralConverter
             string convertedNumber = "";
             ConvertToNumeralButton.TouchUpInside += (object sender, EventArgs e) =>
             {
-                InputToConvertTextField.Text = "";
                 int intToConvert;
                 Int32.TryParse(InputToConvertTextField.Text, out intToConvert );
                 convertedNumber = NumberConverter.ToRomanNumeral(intToConvert);
@@ -43,7 +42,6 @@ namespace RomanNumeralConverter
 
         partial void UIButton2341_TouchUpInside(UIButton sender)
         {
-            InputToConvertTextField.Text = "";
             string convertedNumeral = "";
             string NumeralToConvert = InputToConvertTextField.Text;
             convertedNumeral = NumberConverter.ToDecimal(NumeralToConvert);

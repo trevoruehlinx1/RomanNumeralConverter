@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{4CD83546-B022-429D-BA5B-2859A27F5D45}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RomanNumeralConverter/Main.cs">
+    <Files>
+      <File FileName="RomanNumeralConverter/Main.storyboard" />
+      <File FileName="RomanNumeralConverter/NumberConverter.cs" Line="1" Column="1" />
+      <File FileName="RomanNumeralConverter/ViewController.cs" Line="18" Column="14" />
+      <File FileName="RomanNumeralConverter/Main.cs" Line="12" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RomanNumeralConverter PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.21B07EEC-2E6B-4154-B5A8-E90E70D2B5A9" />
+</Properties>
